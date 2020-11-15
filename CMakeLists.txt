@@ -12,7 +12,7 @@ add_executable(play
 )
 
 # Link SFML
-set(SFML_DIR /home/mikengo/Documents/Coding/C\(\+\+\)/C\+\+/SFML/SFML-2.5.1/build/)
+#set(SFML_DIR /home/mikengo/Documents/Coding/C\(\+\+\)/C\+\+/SFML/SFML-2.5.1/build/)
 find_package(SFML 2.5.1 COMPONENTS graphics REQUIRED)
 target_link_libraries(play
     PUBLIC sfml-graphics

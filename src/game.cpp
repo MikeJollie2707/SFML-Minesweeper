@@ -271,7 +271,7 @@ void Game::update()
             }
             else if (&board[hovered_pos.x][hovered_pos.y] == &board[i][j])
             {
-                board[i][j].setSpriteCopy(sprites[HOVERED]);
+                //board[i][j].setSpriteCopy(sprites[HOVERED]);
             }
             else if (board[i][j].isFlag())
                 board[i][j].setSpriteCopy(sprites[FLAG]);
